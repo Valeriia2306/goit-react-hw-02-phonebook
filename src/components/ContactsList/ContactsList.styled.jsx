@@ -9,8 +9,11 @@ const ContactItem = styled.li`
   width: 370px;
 `;
 const Button = styled.button`
-  width: 80px;
+  width: 100px;
   height: 28px;
+  border:none:
+  border-radius: 5px;
+  color: hotpink;
 `;
 const ContactName = styled.p`
   display: flex;
@@ -19,10 +22,12 @@ const ContactName = styled.p`
   width: 275px;
   text-align: center;
   font-size: 20px;
+  color: white;
 `;
 const LabelItem = styled.span`
   display: flex;
   margin-left: 30px;
   gap: 100px;
+  color: white;
 `;
 export { ContactsList, ContactItem, ContactName, Button, LabelItem };
